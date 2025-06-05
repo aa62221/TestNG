@@ -1,11 +1,8 @@
 package Package1;
-
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import org.testng.annotations.BeforeMethod;
 
-import java.util.List;
-import java.util.NoSuchElementException;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.ElementNotInteractableException;
@@ -53,5 +50,7 @@ public class Test1 {
 	  Reporter.log("After method is run");
 	  driver.quit();
   }
+  
+
 
 }

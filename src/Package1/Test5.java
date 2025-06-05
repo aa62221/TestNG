@@ -49,14 +49,15 @@ public class Test5 implements Comparable<Test5>{
 
 	@Override
 	public int compareTo(Test5 o) {
-		if(id==o.id) {
-			return 0;			
-		}
-		else if(id<o.id) {
-			return -1;                //--------To reverse the order, you can change this to return 1;
-		}
-		else
-		return 1;
+//		if(id==o.id) {
+//			return 0;			
+//		}
+//		else if(id<o.id) {
+//			return -1;                //--------To reverse the order, you can change this to return 1;
+//		}
+//		else
+//		return 1;
+		return this.id - o.id; 
 	}
 	//This happens internally when we call Collections.sort(list2);
 	//for (int i = 0; i < list2.size() - 1; i++) {------> it will iterate till second last element only so that it can compare with the last element.
