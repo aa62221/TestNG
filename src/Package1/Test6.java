@@ -46,7 +46,7 @@ public class Test6 extends Test4{
 	
 //	Actions actionObj = new Actions(driver);
 //          actionObj.keyDown(Keys.CONTROL)
-//         .sendKeys(Keys.chord("A"))
+//         .sendKeys("A"))
 //         .keyUp(Keys.CONTROL)
 //         .perform();
 
