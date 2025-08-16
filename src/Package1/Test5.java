@@ -15,6 +15,7 @@ public class Test5 implements Comparable<Test5>{
 		this.id=id;
 	}
 	
+	@Override
 	public String toString() {
 		return "Id is "+ id;
 	}
@@ -30,7 +31,7 @@ public class Test5 implements Comparable<Test5>{
 	
 		Collections.sort(list2); // Compare to method is called here to sort the list
 		for(Test5 ls1:list2) {
-		      System.out.println(ls1);
+		      System.out.println(ls1); // Implicitly calls Test5.toString()
 		}
 		
 		Set<String> set = new TreeSet<String>();
