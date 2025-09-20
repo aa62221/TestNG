@@ -40,6 +40,8 @@ public class Test2 {
 		  return new Object[][] {{"Akshay","Kimaya"},{"Gargi","Atul"}};
 		  
 		  }
+//	  “What if I don’t set data-provider-thread-count?”
+//	  (Answer: By default, TestNG uses the global thread-count from suite/test level, otherwise 10.)
 	 
 //	  @AfterMethod
 //	  public void afterMethod(ITestResult result) {

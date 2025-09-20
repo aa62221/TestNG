@@ -31,7 +31,7 @@ public class Test1 {
 		  driver = new ChromeDriver();
 		  driver.get("https://opensource-demo.orangehrmlive.com/index.php/leave/viewLeaveList");     
 		  Reporter.log("Before method is run");
-		  softAssert.assertEquals(true, false,"Actual and Expected do not match");	;
+		  softAssert.assertEquals(true, false,"Actual and Expected do not match");	
   }
   
   @Test(threadPoolSize = 4, invocationCount = 4, timeOut = 1000, expectedExceptions = ElementNotInteractableException.class)
